@@ -1,0 +1,29 @@
+a:link {
+  color: green;
+}
+
+/* Change the color of all the a tags the visited links to steelblue */
+
+a:visited {
+  color: steelblue;
+}
+
+a:hover {
+  color: violet;
+}
+
+a:active {
+  color: tomato;
+}
+
+section:hover {
+  background-color: blue;
+}
+
+section:active {
+  background-color: gold;
+}
+
+#howTo:link {
+  color: magenta;
+}

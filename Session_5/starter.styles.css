@@ -1,0 +1,70 @@
+body {
+  background-color: snow;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul:nth-child(2) {
+  background-color: gray;
+}
+
+.profile-img {
+  padding: 0.5rem;
+  padding-bottom: 0;
+}
+
+.main-heading {
+  color: indigo;
+}
+
+.main-subtitle {
+  color: gray;
+}
+
+.team-member {
+  padding: 1rem;
+  width: 256px;
+  margin-bottom: 1rem;
+  border: 4px solid transparent;
+}
+
+.team-member:hover {
+  border: 4px solid #414141;
+}
+
+.team-member p {
+  opacity: 0.8;
+}
+
+#anna {
+  background-color: darkcyan;
+  color: beige;
+}
+
+#anna h2,
+#anna h3 {
+  color: honeydew;
+}
+
+#harry {
+  background-color: cornsilk;
+}
+
+#harry h2,
+#harry h3 {
+  color: darkslategray;
+}
+
+#sofia {
+  background-color: dodgerblue;
+  color: lightcyan;
+}
+
+#sofia h2,
+#sofia h3 {
+  color: navy;
+}

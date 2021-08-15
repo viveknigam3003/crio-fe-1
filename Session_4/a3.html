@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .grand-parent {
+        color: steelblue !important;
+        background-color: lightcyan;
+        height: 256px;
+        width: 256px;
+      }
+
+      .grand-parent {
+        color: coral;
+      }
+
+      ul li ol li {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="grand-parent">
+      <div class="parent">
+        <p class="child">This is a para inside child</p>
+      </div>
+    </section>
+
+    <ul>
+      <li>Item 1</li>
+      <li>
+        <ol>
+          <li>Sub-item 2A</li>
+          <li>Sub-item 2B</li>
+        </ol>
+      </li>
+    </ul>
+  </body>
+</html>

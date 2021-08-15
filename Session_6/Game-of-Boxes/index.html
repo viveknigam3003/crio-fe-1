@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="default.styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>The game of boxes</h1>
+    </header>
+    <main>
+      <section>
+        <a href="./Level-1/index.html">
+          <h2>Level 1</h2>
+        </a>
+        <ul>
+          <li>
+            Static Positioning is the default <code>position</code> strategy
+          </li>
+          <li>No change observed when using <code>position: static</code></li>
+          <li>
+            Positioning attributes like (<code>left/right/top/bottom</code>)
+            <strong>don't work</strong>.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <a href="./Level-2/index.html">
+          <h2>Level 2</h2>
+        </a>
+        <ul>
+          <li>Absolute Positioning</li>
+          <li>Absolute elements break the flow</li>
+          <li>
+            Positioning attributes like (<code>left/right/top/bottom</code>)
+            work.
+          </li>
+          <li>
+            If parent also <code>absolute</code>, then absolute children become
+            relative to parent, but parent breaks the flow of the page.
+          </li>
+          <li>
+            If no <code>position</code> attribute in parent then, absolute
+            elements are placed w.r.t. the page.
+          </li>
+        </ul>
+        <p>
+          Other thing to note is the difference between <code>50%</code> and
+          <code>50vw</code>
+        </p>
+      </section>
+      <section>
+        <a href="./Level-3/index.html">
+          <h2>Level 3</h2>
+        </a>
+        <ul>
+          <li>Relative Positioning</li>
+          <li>Relative elements <strong>don't</strong> break the flow</li>
+          <li>
+            Relative means wrt to original position (according to the flow)
+          </li>
+          <li>
+            Relative elements appear above static elements, because of in-built
+            <code>z-index</code> property
+          </li>
+          <li>
+            If parent -> <code>relative</code> but child ->
+            <code>absolute</code>, then, children are placed "absolutely" wrt to
+            the parent. <em>Parent does not break flow.</em>
+          </li>
+        </ul>
+        <p>
+          Other thing to note is the difference between <code>50%</code> and
+          <code>50vw</code>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
